@@ -31,4 +31,8 @@ public void Creditos1 (View v){
     Intent creditos = new Intent (this, creditos.class);
     startActivity(creditos);
     }
+public void Menuz (View v){
+        Intent menu = new Intent(this,MainActivity.class);
+        startActivity(menu);
+}
 }

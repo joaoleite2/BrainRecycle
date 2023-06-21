@@ -9,4 +9,6 @@
     <string name="menu"><b>menu<font color="#ae2eff">:</font></b></string>
     <string name="dark">Tema escuro</string>
     <string name="enviar">Enviar</string>
+    <string name="txtsobre">Este aplicativo foi criado por <font color="#ff60ff">João Henrique Leite</font>, com a intenção de poder testar mais o raciocínio lógico das pessoas e atribuir mais
+    conhecimento sobre a sustentabilidade, o que com certeza é algo que deveria ser tratado e conhecido por todos.</string>
 </resources>
