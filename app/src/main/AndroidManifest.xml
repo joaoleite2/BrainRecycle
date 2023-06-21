@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BrainRecycle"
         tools:targetApi="31">
         <activity
+            android:name=".level1"
+            android:exported="false" />
+        <activity
             android:name=".tutorial"
             android:exported="false" />
         <activity
