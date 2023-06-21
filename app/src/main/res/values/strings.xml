@@ -11,6 +11,6 @@
     <string name="enviar">Enviar</string>
     <string name="txtsobre">Este aplicativo foi criado por <font color="#ff60ff">João Henrique Leite</font>, com a intenção de poder testar mais o <font color="#aa3631">raciocínio lógico</font> das pessoas e atribuir mais
         conhecimento sobre a <font color="#03714d">sustentabilidade</font>, o que com certeza é algo que <font color="#2989c6">deveria</font> ser tratado e conhecido por todos.</string>
-    <string name="vejamais">Veja mais Projetos</string>
+    <string name="vejamais"><b>Veja mais Projetos</b></string>
     <string name="joaoleite">@joaoleite2</string>
 </resources>
