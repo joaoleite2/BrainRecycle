@@ -31,8 +31,12 @@ public class tutorial extends AppCompatActivity {
             }
         }); */
     }
-    public void tt (View v){
-        Intent test = new Intent(this, creditos.class);
+    public void jogar (View v){
+        Intent test = new Intent(this, level1.class);
         startActivity(test);
+    }
+    public void tutorialMenu (View v){
+        Intent menu = new Intent (this, MainActivity.class);
+        startActivity(menu);
     }
 }
