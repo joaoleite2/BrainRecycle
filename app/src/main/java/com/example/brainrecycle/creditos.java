@@ -39,4 +39,8 @@ public class creditos extends AppCompatActivity {
         });
 
     }
+    public void CreditoMenu (View v){
+        Intent menu = new Intent (this, MainActivity.class);
+        startActivity(menu);
+    }
 }

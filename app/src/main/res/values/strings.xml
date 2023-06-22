@@ -15,6 +15,6 @@
     <string name="joaoleite">@joaoleite2</string>
     <string name="comando">use o comando <font color="#ff60ff">/text:</font> para responder as perguntas</string>
     <string name="digite">digite aqui sua resposta</string>
-    <string name="pronto">Você está pronto<font color="#ff60ff">?</font></string>
+    <string name="pronto">Você está pronto<font color="#ecbd18">?</font></string>
     <string name="cordarec">Qual a cor da lata de <font color="">vidro</font></string>
 </resources>
