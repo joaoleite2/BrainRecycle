@@ -34,7 +34,5 @@ Este aplicativo será tratado ao longo do ano, e portanto sua versão ainda não
       - Caixa de resposta/ Botão para confirmar
 
 ## Por João Henrique Leite.
-
-https://github.com/joaoleite2/BrainRecycle/wiki/Descriçã
   
   
