@@ -61,16 +61,14 @@ public class level2 extends AppCompatActivity {
         imgDica.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                abrirMapa(); // Chama a função para abrir o mapa
+                abrirMapa();
             }
         });
 
-        // Configurar OnClickListener para txtDica na level2
         txtDica.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                abrirMapa(); // Chama a função para abrir o mapa
-            }
+                abrirMapa();}
         });
     }
 
@@ -85,25 +83,12 @@ public class level2 extends AppCompatActivity {
     }
 
     private void abrirMapa() {
-        // Substitua com a latitude e longitude da localização desejada
-        String latitude = "37.7749";
-        String longitude = "-122.4194";
-
-        // Crie uma Uri para a localização desejada
+        String latitude = "51.1657";
+        String longitude = "10.,4515";
         Uri gmmIntentUri = Uri.parse("geo:" + latitude + "," + longitude);
-
-        // Crie uma Intent para abrir o Google Maps
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
 
-        // Especifique o pacote do aplicativo Google Maps (opcional)
         mapIntent.setPackage("com.google.android.apps.maps");
-
-        // Verifique se há um aplicativo que pode lidar com a Intent
-        if (mapIntent.resolveActivity(getPackageManager()) != null) {
-            startActivity(mapIntent);
-        } else {
-            // Caso não haja aplicativo Google Maps instalado
-            Toast.makeText(this, "Google Maps não está instalado.", Toast.LENGTH_SHORT).show();
-        }
+        startActivity(mapIntent);
     }
 }
