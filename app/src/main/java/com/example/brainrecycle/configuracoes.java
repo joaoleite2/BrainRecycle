@@ -35,8 +35,4 @@ public void Menuz (View v){
         Intent menu = new Intent(this,MainActivity.class);
         startActivity(menu);
 }
-public void configBranco (View v){
-        Intent branco = new Intent (this,configuracoes2.class);
-        startActivity(branco);
-}
 }

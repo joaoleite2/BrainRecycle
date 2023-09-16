@@ -17,4 +17,7 @@
     <string name="digite">digite aqui sua resposta</string>
     <string name="pronto">Você está pronto<font color="#ecbd18">?</font></string>
     <string name="cordarec">Qual a cor do vidro?</string>
+    <string name="pergunta2">Qual o país que mais recicla no mundo?</string>
+    <string name="dica">dica</string>
+    <string name="latas">Em relação as latas de reciclagem...</string>
 </resources>

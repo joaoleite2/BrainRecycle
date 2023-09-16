@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#121212"
-    tools:context=".level1">
+    tools:context=".level1"
+    tools:ignore="ExtraText">
 
     <ImageView
         android:id="@+id/imgseta1"
@@ -32,9 +33,11 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/cordarec"
+        android:text="@string/pergunta2"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,25 +72,41 @@
         android:layout_height="48dp"
         android:layout_marginTop="76dp"
         android:layout_marginEnd="308dp"
-        android:onClick="CreditoMenu"
+        android:onClick="Menuz"
         android:tint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/baseline_keyboard_arrow_right_24" />
 
-    <TextView
-        android:id="@+id/txtLatas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/latas"
-        android:textColor="@color/verde"
+    <ImageView
+        android:id="@+id/imgDica"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:hapticFeedbackEnabled="false"
+        android:rotation="180"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.953"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439"
+        app:layout_constraintVertical_bias="0.09"
+        app:srcCompat="@drawable/baseline_wb_incandescent_24"
+        app:tint="@android:color/white"
         android:visibility="gone"/>
 
+    <TextView
+        android:id="@+id/txtDica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dica"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107"
+        android:visibility="gone"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
