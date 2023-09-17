@@ -105,29 +105,31 @@
         app:layout_constraintVertical_bias="0.414" />
 
     <ImageView
+        android:id="@+id/settings"
+        android:layout_width="38dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:background="#FFFFFF"
+        android:onClick="Configuracoes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnconfig"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857"
+        app:srcCompat="@drawable/baseline_settings_applications_24" />
+
+    <ImageView
         android:id="@+id/vecjogar"
         android:layout_width="42dp"
         android:layout_height="46dp"
-        android:layout_marginBottom="176dp"
         android:onClick="Jogar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnjogar"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.785"
         app:srcCompat="@drawable/resume" />
-
-    <ImageView
-        android:id="@+id/settings"
-        android:layout_width="38dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="124dp"
-        android:background="#FFFFFF"
-        android:onClick="Configuracoes"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnconfig"
-        app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_settings_applications_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,4 +20,7 @@
     <string name="pergunta2">Qual o país que mais recicla no mundo?</string>
     <string name="dica">dica</string>
     <string name="latas">Em relação as latas de reciclagem...</string>
+    <string name="bemvindo">Seja bem vindo</string>
+    <string name="apresentese">Se apresente</string>
+    <string name="confirmar">CONFIRMAR</string>
 </resources>

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(creditos);
     }
     public void Jogar (View v){
-        Intent jogar = new Intent(this,tutorial.class);
+        Intent jogar = new Intent(this,Apresente.class);
         startActivity(jogar);
     }
 }

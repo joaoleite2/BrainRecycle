@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#121212"
+    android:background="@drawable/rec"
     tools:context=".level1"
     tools:ignore="ExtraText">
 
@@ -27,6 +27,7 @@
         android:ems="10"
         android:hint="@string/digite"
         android:inputType="text"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.19"
@@ -70,12 +71,14 @@
         android:id="@+id/imageView"
         android:layout_width="33dp"
         android:layout_height="48dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="308dp"
         android:onClick="Menuz"
         android:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
         app:srcCompat="@drawable/baseline_keyboard_arrow_right_24" />
 
     <ImageView
@@ -84,6 +87,7 @@
         android:layout_height="48dp"
         android:hapticFeedbackEnabled="false"
         android:rotation="180"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.953"
@@ -91,8 +95,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.09"
         app:srcCompat="@drawable/baseline_wb_incandescent_24"
-        app:tint="@android:color/white"
-        android:visibility="gone"/>
+        app:tint="@android:color/white" />
 
     <TextView
         android:id="@+id/txtDica"
@@ -101,12 +104,12 @@
         android:text="@string/dica"
         android:textColor="@color/white"
         android:textSize="16sp"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.107"
-        android:visibility="gone"/>
+        app:layout_constraintVertical_bias="0.107" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,11 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class tutorial extends AppCompatActivity {
     private EditText txtdigite;
     private ImageView botaoResponder;
+    TextView txtPergunta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,9 @@ public class tutorial extends AppCompatActivity {
 
         txtdigite= findViewById(R.id.editResponder2);
         botaoResponder = findViewById(R.id.imgseta2);
+        txtPergunta = findViewById(R.id.txtpergunta);
+        String valor = getIntent().getStringExtra("extraNome");
+        txtPergunta.setText("Você está pronto(a) "+valor+"?");
 
         botaoResponder.setOnClickListener(new View.OnClickListener(){
            @Override

@@ -41,8 +41,8 @@ public class level2 extends AppCompatActivity {
                         i++;
                         Toast.makeText(getApplicationContext(), "Complete os parâmetros", Toast.LENGTH_SHORT).show();
                     } else if (parametros.equalsIgnoreCase("alemanha") || parametros.equalsIgnoreCase("Alemanha")) {
-                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse ("https://github.com/joaoleite2")));
-                        Toast.makeText(getApplicationContext(),"Concluído. Nos acompanhe para saber as próximas novidades.",Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse ("https://github.com/joaoleite2/BrainRecycle/tree/main")));
+                        Toast.makeText(getApplicationContext(),"Concluído. Nos acompanhe para saber as próximas novidades.",Toast.LENGTH_LONG).show();
                     } else {
                         i++;
                         Toast.makeText(getApplicationContext(), "Parâmetro inválido", Toast.LENGTH_SHORT).show();
@@ -58,7 +58,6 @@ public class level2 extends AppCompatActivity {
             }
         });
 
-        // Configurar OnClickListener para imgDica na level2
         imgDica.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -84,12 +83,12 @@ public class level2 extends AppCompatActivity {
     }
 
     private void abrirMapa() {
-        String latitude = "51.1657";
-        String longitude = "10.,4515";
-        Uri gmmIntentUri = Uri.parse("geo:" + latitude + "," + longitude);
+        String nomeLocal = "Alemanha";
+        Uri gmmIntentUri = Uri.parse("geo:0,0?q=" + nomeLocal);
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
 
         mapIntent.setPackage("com.google.android.apps.maps");
         startActivity(mapIntent);
     }
+
 }

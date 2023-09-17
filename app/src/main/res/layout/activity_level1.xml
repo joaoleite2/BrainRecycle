@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#121212"
+    android:background="@drawable/rec"
     tools:context=".level1">
 
     <ImageView
@@ -26,6 +26,7 @@
         android:ems="10"
         android:hint="@string/digite"
         android:inputType="text"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.19"
@@ -67,12 +68,14 @@
         android:id="@+id/imageView"
         android:layout_width="33dp"
         android:layout_height="48dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="308dp"
         android:onClick="CreditoMenu"
         android:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
         app:srcCompat="@drawable/baseline_keyboard_arrow_right_24" />
 
     <TextView
@@ -81,13 +84,13 @@
         android:layout_height="wrap_content"
         android:text="@string/latas"
         android:textColor="@color/verde"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439"
-        android:visibility="gone"/>
+        app:layout_constraintVertical_bias="0.439" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

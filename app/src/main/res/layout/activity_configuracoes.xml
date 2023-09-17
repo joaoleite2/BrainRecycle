@@ -47,6 +47,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:text="@string/enviar"
+        android:textColor="@color/dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -56,14 +57,14 @@
 
     <View
         android:id="@+id/view"
-        android:layout_width="333dp"
-        android:layout_height="452dp"
+        android:layout_width="354dp"
+        android:layout_height="423dp"
         android:background="#0CFFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btndark"
@@ -110,26 +111,15 @@
         android:id="@+id/imageView"
         android:layout_width="33dp"
         android:layout_height="48dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="308dp"
         android:onClick="Menuz"
         android:tint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baseline_keyboard_arrow_right_24" />
-
-    <Button
-        android:id="@+id/btnivisivel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00FFFFFF"
-        android:onClick="configBranco"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.182"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367" />
+        app:layout_constraintVertical_bias="0.089"
+        app:srcCompat="@drawable/baseline_keyboard_arrow_right_24" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

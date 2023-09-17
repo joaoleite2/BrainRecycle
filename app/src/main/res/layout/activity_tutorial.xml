@@ -5,7 +5,7 @@
     android:id="@+id/edtresposta"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#121212"
+    android:background="@drawable/rec"
     tools:context=".tutorial">
 
     <Button
@@ -50,6 +50,7 @@
         android:ems="10"
         android:hint="@string/digite"
         android:inputType="text"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.19"
@@ -84,12 +85,14 @@
         android:id="@+id/imageView"
         android:layout_width="33dp"
         android:layout_height="48dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="308dp"
         android:onClick="tutorialMenu"
         android:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
         app:srcCompat="@drawable/baseline_keyboard_arrow_right_24" />
 
     <View
