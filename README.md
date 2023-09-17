@@ -5,7 +5,7 @@
 - [Telas](https://github.com/joaoleite2/BrainRecycle/wiki/Telas)
 - [Protótipo base](https://github.com/joaoleite2/BrainRecycle/wiki/Protótipo)
 - [Diagrama de classes](https://github.com/joaoleite2/BrainRecycle/wiki/Diagrama-de-classes)
-- [Vídeo](https://youtu.be/PibIgzN46PI)
+- [Vídeo](https://www.youtube.com/watch?v=27Kj50h3Obo)
 
 
 
