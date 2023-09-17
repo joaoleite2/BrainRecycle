@@ -39,20 +39,21 @@ public class level2 extends AppCompatActivity {
                     String parametros = resposta.substring("/text:".length()).trim();
                     if (parametros.isEmpty()) {
                         i++;
-                        mostrarDica("Complete os parâmetros");
+                        Toast.makeText(getApplicationContext(), "Complete os parâmetros", Toast.LENGTH_SHORT).show();
                     } else if (parametros.equalsIgnoreCase("alemanha") || parametros.equalsIgnoreCase("Alemanha")) {
-                        abrirMapa(); // Chama a função para abrir o mapa
-                        Intent intent = new Intent(level2.this, level3.class);
-                        startActivity(intent);
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse ("https://github.com/joaoleite2")));
+                        Toast.makeText(getApplicationContext(),"Concluído. Nos acompanhe para saber as próximas novidades.",Toast.LENGTH_SHORT).show();
                     } else {
                         i++;
-                        mostrarDica("Parâmetro inválido");
-                        editResponder.setText("");
+                        Toast.makeText(getApplicationContext(), "Parâmetro inválido", Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     i++;
-                    mostrarDica("Digite um comando válido");
+                    Toast.makeText(getApplicationContext(), "Digite um comando válido", Toast.LENGTH_SHORT).show();
                     editResponder.setText("");
+                }
+                if(i==2){
+                    mostrarDica();
                 }
             }
         });
@@ -77,7 +78,7 @@ public class level2 extends AppCompatActivity {
         startActivity(menu);
     }
 
-    private void mostrarDica(String mensagem) {
+    private void mostrarDica() {
         imgDica.setVisibility(View.VISIBLE);
         txtDica.setVisibility(View.VISIBLE);
     }
