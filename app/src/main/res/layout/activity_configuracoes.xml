@@ -34,6 +34,8 @@
         android:hint="Avalie o aplicativo"
         android:inputType="text"
         android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="#ADFFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -57,14 +59,15 @@
 
     <View
         android:id="@+id/view"
-        android:layout_width="354dp"
-        android:layout_height="423dp"
+        android:layout_width="328dp"
+        android:layout_height="471dp"
         android:background="#0CFFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
 
     <Button
         android:id="@+id/btndark"
