@@ -10,5 +10,3 @@
 
 
 ## Por João Henrique Leite.
-  
-  

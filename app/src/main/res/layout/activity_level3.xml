@@ -5,39 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/rec"
-    tools:context=".level1"
-    tools:ignore="ExtraText">
-
-    <ImageView
-        android:id="@+id/imgseta1"
-        android:layout_width="66dp"
-        android:layout_height="56dp"
-        android:layout_marginEnd="40dp"
-        android:onClick="jogar"
-        app:layout_constraintBottom_toBottomOf="@+id/editResponder1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/baseline_keyboard_arrow_right_24"
-        app:tint="#FFFFFF" />
-
-    <EditText
-        android:id="@+id/editResponder1"
-        android:layout_width="280dp"
-        android:layout_height="57dp"
-        android:layout_marginBottom="44dp"
-        android:ems="10"
-        android:hint="@string/digite"
-        android:inputType="text"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.19"
-        app:layout_constraintStart_toStartOf="parent" />
+    tools:context=".level3">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pergunta2"
+        android:text="@string/pergunta3"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -111,5 +85,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.107" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="152dp"
+        android:layout_height="147dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664"
+        app:srcCompat="@drawable/lightbulb"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="205dp"
+        android:layout_height="201dp"
+        android:backgroundTint="#655454"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63"
+        app:srcCompat="@drawable/baseline_wb_incandescent_24"
+        app:tint="@color/amarelo"
+        android:visibility="gone"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
