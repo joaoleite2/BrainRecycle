@@ -2,6 +2,7 @@ package com.example.brainrecycle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -20,6 +21,7 @@ public class level2 extends AppCompatActivity {
     private ImageView imgDica;
     private TextView txtDica;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,8 +43,8 @@ public class level2 extends AppCompatActivity {
                         i++;
                         Toast.makeText(getApplicationContext(), "Complete os parâmetros", Toast.LENGTH_SHORT).show();
                     } else if (parametros.equalsIgnoreCase("alemanha") || parametros.equalsIgnoreCase("Alemanha")) {
-                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse ("https://github.com/joaoleite2/BrainRecycle/tree/main")));
-                        Toast.makeText(getApplicationContext(),"Concluído. Nos acompanhe para saber as próximas novidades.",Toast.LENGTH_LONG).show();
+                            Intent level3 = new Intent(level2.this, level3.class);
+                            startActivity(level3);
                     } else {
                         i++;
                         Toast.makeText(getApplicationContext(), "Parâmetro inválido", Toast.LENGTH_SHORT).show();
