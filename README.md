@@ -9,4 +9,4 @@
 
 
 
-## Por João Henrique Leite.
+## Por João Henrique Leite e Daniel Biondi.
