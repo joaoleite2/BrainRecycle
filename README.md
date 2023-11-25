@@ -6,7 +6,7 @@
 - [Protótipo base](https://github.com/joaoleite2/BrainRecycle/wiki/Protótipo)
 - [Diagrama de classes](https://github.com/joaoleite2/BrainRecycle/wiki/Diagrama-de-classes)
 - [Vídeo](https://www.youtube.com/watch?v=27Kj50h3Obo)
-- [Sobre](https://github.com/joaoleite2/BrainRecycle/wiki/Sensor)
+- [Sensor](https://github.com/joaoleite2/BrainRecycle/wiki/Sensor)
 
 
 
